@@ -3,7 +3,8 @@
 // mod ownership;
 // mod lifetime;
 // mod generics;
-mod structs;
+// mod structs;
+mod enums;
 
 fn main() {
     // println!("Hello, world!");
@@ -12,5 +13,6 @@ fn main() {
     // ownership::run();
     // lifetime::run();
     // generics::run();
-    structs::run();
+    // structs::run();
+    enums::run();
 }
