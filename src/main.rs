@@ -4,7 +4,8 @@
 // mod lifetime;
 // mod generics;
 // mod structs;
-mod enums;
+// mod enums;
+mod traits;
 
 fn main() {
     // println!("Hello, world!");
@@ -14,5 +15,6 @@ fn main() {
     // lifetime::run();
     // generics::run();
     // structs::run();
-    enums::run();
+    // enums::run();
+    traits::run();
 }
