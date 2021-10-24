@@ -6,6 +6,7 @@
 // mod structs;
 // mod enums;
 // mod traits;
+extern crate demo;
 mod error_handling;
 mod unit_test;
 
@@ -20,4 +21,5 @@ fn main() {
     // enums::run();
     // traits::run();
     error_handling::run();
+    demo::print_random_number();
 }
